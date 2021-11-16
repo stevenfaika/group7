@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop Sale Website</title>
+    <link rel="stylesheet" href="css2/Group.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!--header section--------->
+    <header class="header-2">
+        <div class="container">
+            <!---div section that contain my logo sectoin-->
+            <div class="navbar">
+                <div class="logo">
+                    <img src="css2/New/IMG-2021.jpg" width="125px">
+                </div>
+                <!-----it end here-->
+
+                <!----- nav section that cantain ul,li and a section-->
+                <nav>
+                    <ul id="menuitems">
+                        <li><a href="Group.html">Home</a></li>
+                        <li><a href="Products.html">Products</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <img src="Images/download (3).jpg" width="30px" height="30px">
+                <img src="Images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+        <div class="connect">
+            <h1>Connect With Us</h1>
+            <p>We would love to respond to your queries and help you succeed. <br> Feel free to get in touch with us</p>
+            <div class="contact-box">
+                <div class="contact-left">
+                    <h3>Sent your request</h3>
+                    <form>
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label>Name</label>
+                                <input type="text" placeholder="Group Seven">
+                            </div>
+                            <div class="input-group">
+                                <label>phone</label>
+                                <input type="text" placeholder="+231778090909">
+                            </div>
+                        </div>
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label>Email</label>
+                                <input type="email" placeholder="sevengroup@gmail.com">
+                            </div>
+                            <div class="input-group">
+                                <label>Subject</label>
+                                <input type="text" placeholder="Products Demo">
+                            </div>
+                        </div>
+                        <label>Message</label>
+                        <textarea rows="5" placeholder="Your Message"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+                <div class="contact-right">
+                    <h3>Reach Us</h3>
+
+                    <table>
+                        <tr>
+                            <td>Email</td>
+                            <td>sevengroup@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Phone</td>
+                            <td>+231778090909</td>
+                        </tr>
+                        <tr>
+                            <td>Address</td>
+                            <td>Sinkor Airfield shortcut, Monrovia, Liberia</td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-----footer------>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footet-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios moblie phone.</p>
+
+                </div>
+                <div class="footet-col-2">
+                    <img src="css2/New/IMG-20211.jpg">
+                    <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of technology Accessible to the Many.</p>
+                </div>
+
+                <div class="footet-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2021 - Group7 Website</p>
+        </div>
+    </div>
+    <!----js for toggle menu----->
+    <script>
+        var menuitems = document.getElementById("menuitems")
+
+        menuitems.style.maxHeight = "0px"
+
+        function menutoggle() {
+            if (menuitems.style.maxHeight == "0px") {
+                menuitems.style.maxHeight = "200px"
+            } else {
+                menuitems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+</body>
+
+</html>

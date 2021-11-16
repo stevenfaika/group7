@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop Sale Website</title>
+    <link rel="stylesheet" href="css2/Group.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!------- header start---->
+    <header class="header-2">
+        <div class="container">
+            <!---div section that contain my logo sectoin-->
+            <div class="navbar">
+                <div class="logo">
+                    <img src="css2/New/IMG-2021.jpg" width="125px">
+                </div>
+                <nav>
+                    <ul id="menuitems">
+                        <li><a href="Group.html">Home</a></li>
+                        <li><a href="Products.html">Products</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <img src="Images/download (3).jpg" width="30px" height="30px">
+                <img src="Images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+        <!-----it end here-->
+        <div class="small-container">
+            <div class="row row-2">
+                <h1 class="h">OUR TEAM</h1>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="Images/4.jpg">
+                    <h2>Rose N. Johnson</h2>
+                    <h3>HEAD / ID# 5275</h3>
+                    <p>Member of the Group seven (7) Project</p>
+                </div>
+                <div class="col-4">
+                    <img src="Images/2.jpg">
+                    <h2>Sarah P. Sayeh</h2>
+                    <h3>ID# 5677</h3>
+                    <p>Member of the Group seven (7) Project</p>
+                </div>
+                <div class="col-4">
+                    <img src="Images/3.jpg">
+                    <h2>Ja-mas N. Mulbah</h2>
+                    <h3>ID# 5374</h3>
+                    <p>Member of the Group seven (7) Project</p>
+                </div>
+                <div class="col-4">
+                    <img src="Images/6.jpg">
+                    <h2>R0bert Z. Gongbay</h2>
+                    <h3>ID# 6224</h3>
+                    <p>Member of the Group seven (7) Project</p>
+                </div>
+                <div class="col-4">
+                    <img src="Images/1.jpg">
+                    <h2>Stephen D Mulbah</h2>
+                    <h3>ID# 5885</h3>
+                    <p>Member of the Group seven (7) Project</p>
+                </div>
+                <div class="col-4">
+                    <img src="Images/5.jpg">
+                    <h2>Steven z. Faika</h2>
+                    <h3>ID# 5636</h3>
+                    <p>Member of the Group seven (7) Project</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-----footer------>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footet-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios moblie phone.</p>
+                </div>
+                <div class="footet-col-2">
+                    <img src="css2/New/IMG-20211.jpg">
+                    <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of technology Accessible to the Many.</p>
+                </div>
+
+                <div class="footet-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2021 - Group7 Website</p>
+        </div>
+    </div>
+    <!----js for toggle menu----->
+    <script>
+        var menuitems = document.getElementById("menuitems")
+
+        menuitems.style.maxHeight = "0px"
+
+        function menutoggle() {
+            if (menuitems.style.maxHeight == "0px") {
+                menuitems.style.maxHeight = "200px"
+            } else {
+                menuitems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+</body>
+
+</html>
